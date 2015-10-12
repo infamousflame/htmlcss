@@ -1,1 +1,101 @@
-/* css */
+*{
+    text-decoration:none;
+}
+#page{
+    margin:100px;
+}
+h1{
+    font-family:Verdana;
+    font-size:60pt;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url("http://4.bp.blogspot.com/-SzSGbdKxdx8/TaxZSKT-0OI/AAAAAAAAALg/GFub9hspz2I/s1600/Fat+Dog.jpg");
+}
+
+#header{
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    margin:0px;
+    padding:20px;
+}
+
+
+#nav, #nav a{
+    background-color:#CCC;
+    padding:10px;
+    margin:0px;
+}
+
+
+/* Navigation */
+
+#nav a{
+    margin:0px;
+    text-decoration:none;
+    font-family:arial;
+    color:black;
+    transition: color 1s, background-color 1s;
+
+    
+}
+#nav a:hover{
+    background-color:#aaaaff;   /*changes background color*/
+    color:white;/*changes the color of the text*/
+    transition: color .3s, background-color .3s;/*transitions color of text and background over .3 seconds*/
+}
+#content{
+    padding-left:20px;
+    background-color:#eee;
+    margin:0px;
+}
+h1,h2, h3{
+    font-family:arial;
+    margin:0px;
+}
+#footer{
+    padding:20px;
+    background-color:black;
+    margin-top:-15px;
+    color:white;
+    
+}
+.spotlight{
+    background-color:pink;
+}
+/*#header{
+    padding:20px;
+    width:400px;
+        color:white;
+            font-family:Arial;
+            font-size:12px;
+}
+#header:hover{
+    color:black;
+    background-color:pink;
+    font-family:Comic Sans MS;
+    font-size:30px;
+    transition:background-color 2s, color 2s, font-family 2s, font-size 2s;
+}
+
+div{
+    background-color:#6666ff;
+    padding:9px;
+}
+div:hover{
+    background-color:green;
+    transition:background-color 2s;
+
+}
+#content{
+    
+}
+#footer{
+    
+}
+*/
